@@ -619,15 +619,6 @@ ul li strong
     /* width: 200px; */
 }
 
-footer 
-{
-    background-color:white;
-    color:black;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 5px;
-    height: 40px;
-}
 
 
 .contact  h2
@@ -643,6 +634,16 @@ footer
 {
     color: #ff4500;
     font-weight: bold;
+}
+
+footer 
+{
+    background-color:white;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    height: 40px;
 }
 
 
@@ -956,8 +957,6 @@ header {
     .contact-btn {
         width: 100%;
         text-align: center;
-        margin-top: 15px;
-        margin-bottom: 15px;
     }
 
     .hero-text h1 {
@@ -1136,40 +1135,25 @@ header {
 
    
 }
+
+/* Responsive styles for screens 768px wide or smaller */
 @media (max-width: 768px) {
-    .timeline {
-        width: 100%; /* Take full width */
-        margin: 20px auto; /* Adjust margin for smaller screens */
-        box-shadow: 10px 8px 15px 5px black; /* Reduce shadow for a softer effect */
+    .contact {
+        height: auto; /* Adjust height to fit content */
+        padding: 20px; /* Add some padding for smaller screens */
     }
 
-    .timeline-container {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
+    .contact form {
+        width: 90%; /* Reduce width for smaller screens */
+        margin-left: auto; /* Center the form */
+        margin-right: auto; /* Center the form */
     }
 
-    .timeline-item {
-        width: 90%; /* Full width of the container with some margin */
-        margin-bottom: 20px; /* Add space between items */
-        box-shadow: 10px 8px 15px 5px black; /* Reduce shadow for a softer effect */
-        padding: 15px; /* Adjust padding */
+    .contact form button {
+        margin-bottom: 50px; /* Reduce bottom margin for smaller screens */
     }
 
-    .timeline-date {
-        font-size: 16px; /* Slightly reduce font size */
-        padding: 5px 15px; /* Adjust padding */
-    }
-
-    .timeline-content h4 {
-        font-size: 20px; /* Reduce heading size */
-    }
-
-    .timeline-content h6 {
-        font-size: 16px; /* Adjust subheading size */
-    }
-
-    .timeline-content p {
-        font-size: 12px; /* Slightly reduce text size */
-        line-height: 1.4; /* Adjust line height */
+    .contact h2 {
+        font-size: 28px; /* Reduce font size for smaller screens */
     }
 }
