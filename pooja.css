@@ -709,6 +709,10 @@ header {
         flex-direction: column;
         align-items: flex-start;
     }
+    .navbar .logo a {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
     .hero {
         flex-direction: column;
@@ -755,14 +759,6 @@ header {
         flex-direction: column;
     }
 
-    .projects h2 {
-        font-size: 28px;
-    }
-
-    .project-card {
-        width: calc(100% - 20px);
-        margin: 10px auto;
-    }
 }
 
 @media (max-width: 480px) {
