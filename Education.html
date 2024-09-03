@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    user-select: none;
+}
+
+    .timeline  h1  {
+        color: black;
+        text-align: center;
+    }
+    h1 span
+    {
+        color: #ff4500;
+    }
+    
+    .timeline 
+    {
+        width: 90%;
+        margin: 50px auto;
+        position: relative;
+        background-color: aliceblue;
+        box-shadow: 20px 15px 20px 10px black;
+    
+    }
+    
+    .timeline-container 
+    {
+        display: flex;
+        justify-content: space-between;
+        /* box-shadow: 5px 5px 10px black; */
+        /* box-shadow: 20px 0 20px 0 black; */
+    
+    }
+    
+    .timeline-item
+     {
+        background-color:#ff4500 ;
+        padding: 20px;
+        border-radius: 5px;
+        width: 29%;
+        position: relative;
+        text-align: center;
+        box-shadow: 20px 15px 20px 10px black;
+    }
+    
+    .timeline-date 
+    {
+        background-color: white;
+        padding: 7px 19px;
+        border-radius: 20px;
+        display: inline-block;
+        margin-bottom: 20px;
+        color:  #ff4500;
+        font-weight: bold;
+    }
+    
+    .timeline-content h6 
+    {
+        font-size: 18px;
+        margin-bottom:4px;
+        color: black;
+    }
+    
+    .timeline-content p 
+    {
+        font-size: 13px;
+        line-height: 1.5;
+        color: white;
+        font-weight: bold;
+    }</style>
+</head>
+<body>
+    <div class="timeline">
+        <h1>My <span>Education</span></h1>
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-date">2019 - 2022</div>
+                <div class="timeline-content">
+                    <h4>Bachelor of Computer Applications</h4>
+                    <h6>Saraswati Institute of IT and Management College, Bhawanipatna</h6>
+                    <p>Achieved a strong academic record in Computer Science, focusing on key areas such as software development, data structures, algorithms, and database management. Developed a solid foundation in programming and problem-solving skills.</p> 
+              </div>
+             </div> 
+
+            <div class="timeline-item">
+                <div class="timeline-date">2017 - 2019</div>
+                <div class="timeline-content">
+                    <h4>Inter Education - Science</h4>
+                    <h6>Saraswati Science Higher Secondary School, Bhawanipatna(CHSE)</h6>
+                    <p>Completed my inter education with a focus on science subjects, including Physics, Chemistry, and Mathematics. Developed analytical and critical thinking skills essential for technical fields </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2017</div>
+                <div class="timeline-content">
+                    <h4>10th Grade</h4>
+                    <h6>Jagannath High School (Odisha Board HSE)</h6>
+                    <p>In my 10th-grade year under the Odisha Board, I laid the groundwork for my academic future by mastering the fundamental subjects of Mathematics, Science, Social Studies, and Languages.</p> 
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

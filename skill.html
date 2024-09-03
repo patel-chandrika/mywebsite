@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+        .skill-container  h2{
+            color: white;
+            text-align: center;
+        }
+        .skill-container 
+        {
+                    width: 100%;
+                    /* max-width: 1200px; */
+                    margin: 0 auto;
+                    padding: 40px 0;
+                    background-color: black;
+        }
+        
+        
+           .skill-container   h1 {
+                    text-align: center;
+                    margin-bottom: 50px;
+                    font-size: 3em;
+                    color: white;
+                    /* text-transform: uppercase; */
+                    letter-spacing: 2px;
+                }
+        
+                /* Skills Section */
+                .skills-section 
+                {
+                    margin-bottom: 60px;
+                    max-width: 1110px;
+                    margin-left: 130px;
+                    /* display: flex; */
+                    /* align-items: center; */
+                    /* justify-content: center; */
+                }
+        
+                .skills-section h2 {
+                    font-size: 2em;
+                    color: white;
+                    border-bottom: 2px solid #ff4500;
+                    padding-bottom: 10px;
+                    margin-bottom: 30px;
+                    /* text-transform: uppercase; */
+                    letter-spacing: 1.5px;
+                }
+        
+                .skills-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+        
+                .skills-list li {
+                    background-color: black;
+                    flex: 1 1 calc(33.333% - 20px);
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px white;
+                    transition: transform 0.3s, box-shadow 0.3s;
+                    cursor: pointer;
+                    position: relative;
+                    overflow: hidden;
+                }
+        
+                .skills-list li:hover {
+                    transform: translateY(-10px);
+                    box-shadow: 0 8px 16px #ff4500;;
+                }
+        
+                .skills-list li::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 5px;
+                    height: 100%;
+                    background-color:#ff4500;
+                    /* background-color: white; */
+                    transition: width 0.3s;
+                }
+        
+                .skills-list li:hover::before 
+                {
+                    width: 100%;
+                    opacity: 0.1;
+                }
+        
+                .skills-list strong {
+                    display: block;
+                    font-size: 1.2em;
+                    color: #ff4500;
+                    margin-bottom: 10px;
+                }
+        
+                /* .skill-description {
+                    font-size: 0.95em;
+                    color: white;
+                    background-color: black;
+                    font-weight: bold;
+                    line-height: 1.6;
+                    display: none;
+                } */
+        
+                /* Responsive Design */
+                @media (max-width: 992px) {
+                    .skills-list li {
+                        flex: 1 1 calc(50% - 20px);
+                    }
+                }
+        
+                @media (max-width: 600px) {
+                    .skills-list li {
+                        flex: 1 1 100%;
+                    }
+                }
+             </style>
+</head>
+<body>
+    <div class="skill-container">
+        <h1>Skills</h1>
+        <div class="skills-section">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <strong>Java</strong>
+                    <!-- <p class="skill-description">A robust, object-oriented programming language used for building platform-independent applications. Experienced in writing clean, efficient, and maintainable code using Java.</p> -->
+                </li>
+                <li>
+                    <strong>J2EE (Java 2 Platform, Enterprise Edition)</strong>
+                      </li>
+                <li>
+                    <strong>Spring Boot</strong>
+                    <!-- <p class="skill-description">Proficient in using Spring Boot to create stand-alone, production-ready applications. Expertise in reducing boilerplate code and accelerating the development of Java-based microservices.</p> -->
+                </li>
+                <li>
+                    <strong>MongoDb</strong>
+                    <!-- <p class="skill-description">Proficient in using Spring Boot to create stand-alone, production-ready applications. Expertise in reducing boilerplate code and accelerating the development of Java-based microservices.</p> -->
+                </li>
+                <li>
+                    <strong>NodeJs</strong>
+                    <!-- <p class="skill-description">Proficient in using Spring Boot to create stand-alone, production-ready applications. Expertise in reducing boilerplate code and accelerating the development of Java-based microservices.</p> -->
+                </li>
+                <li>
+                    <strong>Kafka</strong>
+                    <!-- <p class="skill-description">Experienced in using Apache Kafka for building real-time data pipelines and streaming applications. Knowledgeable in setting up and managing Kafka clusters, producers, and consumers.</p> -->
+                </li>
+                <li>
+                    <strong>Docker</strong>
+                    <!-- <p class="skill-description">Competent in containerizing applications using Docker to ensure consistency across multiple development environments. Familiar with Docker Compose and Docker Swarm for orchestrating containers.</p> -->
+                </li>
+                <li>
+                    <strong>Git</strong>
+                    <!-- <p class="skill-description">Proficient in version control using Git, including branching, merging, and collaborating with teams using platforms like GitHub, GitLab, and Bitbucket.</p> -->
+                </li>
+                <li>
+                    <strong>CI/CD (Continuous Integration/Continuous Deployment)</strong>
+                    <!-- <p class="skill-description">Experienced in setting up CI/CD pipelines using tools like Jenkins, GitLab CI, or CircleCI to automate the software development process, ensuring rapid delivery of features.</p> -->
+                </li>
+                <li>
+                    <strong>MySQL</strong>
+                    <!-- <p class="skill-description">Skilled in managing relational databases using MySQL. Expertise in writing complex queries, optimizing database performance, and managing schemas.</p> -->
+                </li>
+                <li>
+                    <strong>Microservices</strong>
+                    <!-- <p class="skill-description">Proficient in designing and implementing microservices architectures. Experienced in decomposing monolithic applications into independent, loosely coupled services that can be deployed and scaled individually.</p> -->
+                </li>
+                <li>
+                    <strong>Low-Level Design (LLD)</strong>
+                    <!-- <p class="skill-description">Strong understanding of Low-Level Design principles, focusing on the design of software components, classes, and methods to ensure code quality, maintainability, and scalability.</p> -->
+                </li>
+                <li>
+                    <strong>AWS (Amazon Web Services)</strong>
+                    <!-- <p class="skill-description">Hands-on experience with AWS cloud services, including EC2, S3, Lambda, and RDS. Capable of deploying, managing, and scaling applications in the cloud environment.</p> -->
+                </li>
+                <li>
+                    <strong>SDLC (Software Development Life Cycle)</strong>
+                    <!-- <p class="skill-description">Well-versed in the full Software Development Life Cycle, including requirement gathering, design, development, testing, deployment, and maintenance of software applications.</p> -->
+                </li>
+            </ul>
+        </div>
+        
+        <div class="skills-section">
+        <h2> IDE </h2>
+        <ul class="skills-list">
+            <li>
+                <strong>Visual-Studio</strong>
+                <!-- <p class="skill-description">A robust, object-oriented programming language used for building platform-independent applications. Experienced in writing clean, efficient, and maintainable code using Java.</p> -->
+            </li>
+            <li>
+                <strong>String Tool Starter(STS)</strong>
+                <!-- <p class="skill-description">Skilled in developing enterprise-level applications with J2EE, utilizing various APIs like Servlets, JSP, and EJB for scalable, secure, and multi-tiered solutions.</p> -->
+            </li>
+            <li>
+                <strong>Eclipse</strong>
+                <!-- <p class="skill-description">Proficient in using Spring Boot to create stand-alone, production-ready applications. Expertise in reducing boilerplate code and accelerating the development of Java-based microservices.</p> -->
+            </li>
+            <li>
+                <strong>IntlijIdea</strong>
+                <!-- <p class="skill-description">Proficient in using Spring Boot to create stand-alone, production-ready applications. Expertise in reducing boilerplate code and accelerating the development of Java-based microservices.</p> -->
+            </li>
+            </ul>
+            </div>
+
+        <div class="skills-section">
+            <h2>Soft Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <strong>Problem-Solving</strong>
+                    <!-- <p class="skill-description">Adept at analyzing complex problems and developing efficient solutions. Capable of breaking down issues into manageable parts and applying logical reasoning to resolve them.</p> -->
+                </li>
+                <li>
+                    <strong>Teamwork</strong>
+                    <!-- <p class="skill-description">Strong collaborator with experience working in cross-functional teams. Skilled in communication, sharing knowledge, and contributing to collective goals.</p> -->
+                </li>
+                <li>
+                    <strong>Communication</strong>
+                    <!-- <p class="skill-description">Effective communicator, both verbally and in writing. Able to convey complex technical concepts in a clear and understandable manner to both technical and non-technical stakeholders.</p> -->
+                </li>
+                <li>
+                    <strong>Time Management</strong>
+                    <!-- <p class="skill-description">Proficient in managing multiple tasks and projects simultaneously. Skilled in prioritizing work to meet deadlines without compromising quality.</p> -->
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

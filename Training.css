@@ -1,0 +1,99 @@
+
+/* Section styling */
+.training-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #ff4500;
+    position: relative;
+    font-weight: bold;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Container styling */
+.training-container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Vertical line styling */
+.vertical-line
+ {
+    width: 5px;
+    background-color:#ff4500;
+    box-shadow: 0 4px 8px black;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+/* Content styling */
+.training-content {
+    margin-left: 40px;
+    flex: 1;
+}
+
+/* Title styling */
+.training-content h2 {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.training-content span {
+    font-size: 2rem;
+    color: #ff4500;
+}
+
+/* Experience item styling */
+.training-item {
+    margin-bottom: 20px;
+}
+
+.training-item h3 {
+    font-size: 1.5rem;
+    color: #ff4500;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.institution, .duration {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.training-item ul li 
+{
+    font-size:15px;
+}
+
+ul li strong 
+{
+    color:#ff4500;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
