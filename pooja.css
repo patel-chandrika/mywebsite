@@ -593,6 +593,7 @@ ul li strong
     flex-direction: column;
     width: 50%;
     margin-left: 350px;
+    
 }
 
 .contact form input, .contact form textarea {
@@ -614,8 +615,8 @@ ul li strong
     border-radius: 5px;
     font-size: 1rem;
     margin-bottom: 150px;
-    margin-left: 230px;
-    width: 200px;
+    /* margin-left: 230px; */
+    /* width: 200px; */
 }
 
 footer 
@@ -716,6 +717,16 @@ header {
     {
         flex-direction: column;
         text-align: center;
+    }
+
+
+    .hero-image img {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .hero-image {
+        order: -1; /* Moves the image before the text */
     }
 
     .hero-text {
