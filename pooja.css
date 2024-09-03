@@ -946,6 +946,7 @@ header {
         width: 100%;
         text-align: center;
         margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .hero-text h1 {
@@ -992,17 +993,11 @@ header {
         margin: 10px 0;
     }
 
-    .projects h2 {
-        font-size: 28px;
-    }
-
-    .project-card {
+    .contact form
+     {
         width: 100%;
-        margin: 10px 0;
-    }
-
-    .contact form {
-        width: 100%;
+        align-items:center
+        
     }
 
     .training-container {
@@ -1075,9 +1070,7 @@ header {
         font-size: 0.9rem;
     }
 
-    .projects h2 {
-        font-size: 24px;
-    }
+   
 
     .contact h2 {
         font-size: 30px;
