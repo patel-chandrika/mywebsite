@@ -1144,13 +1144,13 @@ header {
     }
 
     .contact form {
-        width: 90%; /* Reduce width for smaller screens */
+        width: 100%; /* Reduce width for smaller screens */
         margin-left: auto; /* Center the form */
         margin-right: auto; /* Center the form */
     }
 
     .contact form button {
-        margin-bottom: 50px; /* Reduce bottom margin for smaller screens */
+        margin-bottom: 5px; /* Reduce bottom margin for smaller screens */
     }
 
     .contact h2 {
