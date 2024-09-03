@@ -1129,4 +1129,9 @@ header {
 {
     .hero-buttons
     {align-items:center}
+
+    .contact-btn
+    {
+        margin-bottom: 20px;
+    }
 }
