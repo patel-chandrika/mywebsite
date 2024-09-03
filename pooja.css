@@ -1134,8 +1134,42 @@ header {
     .hero-buttons
     {align-items:center}
 
-    .contact-btn
-    {
-        margin-bottom: 20px;
+   
+}
+@media (max-width: 768px) {
+    .timeline {
+        width: 100%; /* Take full width */
+        margin: 20px auto; /* Adjust margin for smaller screens */
+        box-shadow: 10px 8px 15px 5px black; /* Reduce shadow for a softer effect */
+    }
+
+    .timeline-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .timeline-item {
+        width: 90%; /* Full width of the container with some margin */
+        margin-bottom: 20px; /* Add space between items */
+        box-shadow: 10px 8px 15px 5px black; /* Reduce shadow for a softer effect */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .timeline-date {
+        font-size: 16px; /* Slightly reduce font size */
+        padding: 5px 15px; /* Adjust padding */
+    }
+
+    .timeline-content h4 {
+        font-size: 20px; /* Reduce heading size */
+    }
+
+    .timeline-content h6 {
+        font-size: 16px; /* Adjust subheading size */
+    }
+
+    .timeline-content p {
+        font-size: 12px; /* Slightly reduce text size */
+        line-height: 1.4; /* Adjust line height */
     }
 }
