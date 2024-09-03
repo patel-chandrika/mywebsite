@@ -708,13 +708,12 @@ header {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 10px;
     }
-    .navbar .logo a {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+   
 
-    .hero {
+    .hero 
+    {
         flex-direction: column;
         text-align: center;
     }
