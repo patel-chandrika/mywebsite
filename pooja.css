@@ -576,94 +576,15 @@ ul li strong
 }
 
 
-/* project section */
-
-.projects {
-    text-align: center;
-    padding: 40px 0;
-    background-color: black;
-}
-
-.projects h2 {
-    /* font-size: 36px; */
-    margin-bottom: 45px;
-    color: white;
-    font-size: 35px;
-    text-decoration: underline;
-}
-
-.project-card {
-    display: inline-block;
-    width: 300px;
-    margin: 10px;
-    padding: 20px;
-    background-color: #ff4500;;
-    border-radius: 10px;
-    border: 2px solid white;
-    box-shadow: 0 0 15px black;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover 
-{
-    transform: scale(1.05);
-    box-shadow: 0 0 15px black;
-    box-shadow: 0 0 15px white;
-}
-
-.project-content {
-    text-align: center;
-}
-
-.project-image img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid #ff4500;
-    margin-bottom: 15px;
-}
-
-.project-content h3 {
-    margin: 10px 0;
-    font-size: 24px;
-    /* color: #ff4500; */
-    color: white;
-
-}
-
-.project-content p {
-    font-size: 14px;
-    color: white;
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-.project-content h4 {
-    color: white;
-    font-weight: bold;
-    
-}
-.project-link {
-    display: inline-block;
-    padding: 8px 15px;
-    background-color: #ff4500;
-    color: black;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.project-link:hover {
-    background-color: #ff4500;
-}
-
-
-
-
-
 
 /* contact section */
+.contact
+{
+    background-color: black;
+    height: 400px;
+    
 
+}
 
 .contact form
  {
@@ -682,28 +603,31 @@ ul li strong
 }
 
 .contact form button {
-    background-color: black;
-        color: white;
+    background-color: white;
+        color: black;
         font-weight: bold;
     padding: 0.5rem 0;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    width: 300px;
 }
 
 footer {
-    background-color:black;
-    color: white;
+    background-color:white;
+    color: black;
     text-align: center;
     padding: 1rem 0;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 
 .contact  h2
 {
-    color: black;
+    color: white;
     text-align: center;
     font-weight: bold;
     font-size: 35px;
