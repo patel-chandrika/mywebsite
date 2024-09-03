@@ -1136,7 +1136,7 @@ header {
    
 }
 
-/* Responsive styles for screens 768px wide or smaller */
+/* Responsive styles for screens 768px wide or smaller
 @media (max-width: 768px) {
     .contact {
         height: auto; /* Adjust height to fit content */
@@ -1156,4 +1156,4 @@ header {
     .contact h2 {
         font-size: 28px; /* Reduce font size for smaller screens */
     }
-}
+} */
